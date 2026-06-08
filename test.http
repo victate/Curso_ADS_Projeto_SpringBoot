@@ -1,0 +1,13 @@
+### Testar o endpoint de listagem
+GET http://localhost:8080/produtos
+### Criar produto
+POST http://localhost:8080/produtos
+Content-Type: application/json
+
+{
+ "nome": "Teclado Mecânico",
+ "preco": 299.90
+}
+
+### Deletar produto
+DELETE http://localhost:8080/produtos/1
