@@ -29,6 +29,14 @@ public class Produto {
         return preco;
     }
 
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
+    public void setPreco(Float preco) {
+        this.preco = preco;
+    }
+
     public int getId() {
         return id;
     }
